@@ -1,0 +1,387 @@
+/* CSS files add styling rules to your content */
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #ffd1dc;
+  font-family: 'Poiret One', cursive;
+}
+
+.logo{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 22px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  list-style: none;
+}
+
+.navbar a{
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.navbar a:hover{
+  opacity: 0.9;
+  transition-duration: 0.4s;
+  color: #FFFFFF;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+body {
+}
+
+.top{
+  position: relative;
+  text-align: center;
+  color: white;
+  }
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  }
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  }
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  }
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  }
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Poiret One', cursive;
+  font-size: 100px;
+  color:white;
+  background-color: rgba(255, 209, 220, 0.8);
+  }
+
+span {
+  color: #fcfced;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+}
+  
+
+h4 {
+  color: black !important;
+}
+
+#headingone {
+  font-family: 'Poiret One', cursive;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+#paragraph1 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  margin-left: 55px;
+  margin-right: 55px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  
+}
+
+#fast1{
+  font-family: 'Maven Pro', sans-serif;
+  color: #fa9bb3;
+  text-shadow: none;
+}
+
+#fast2{
+  font-family: 'Maven Pro', sans-serif;
+  color: #fa9bb3;
+  text-shadow: none;
+}
+
+#headingtwo {
+  font-size: 35px;
+  font-family: 'Poiret One', cursive;
+  color: #4ECDC4;
+  margin-left: 50px;
+  }
+  
+#paragraph2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 18px;
+  margin-left: 55px;
+  margin-right: 55px;
+  }  
+  
+#paragraph3{
+  text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  margin-left: 55px;
+  margin-right: 55px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gold;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  background-color: #FBF5B7;
+} 
+
+#emphasize{
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: none;
+  font-weight: bold;
+  color: #000000  
+}
+
+.card {   
+width : 50%!important;
+  font-family: 'PT Serif', serif;
+}
+  /*  Footer  */
+ 
+
+.nav {
+  color:white;
+  font-size:14px;
+}
+
+#card1 {
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: none;
+  
+}
+
+#card1intro{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+}
+
+#card1click {
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: none;
+  font-size: 50px;
+  text-size:20px;
+  
+
+}
+
+#card1par {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+}
+
+#card2{
+ font-family: 'Maven Pro', sans-serif;
+  text-shadow: none; 
+}
+
+#card2intro{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+}
+
+
+#card2click {
+  font-family: 'Maven Pro', sans-serif;
+  text-shadow: none;
+  font-size: 50px;
+}
+
+#card2par {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+}  
+  
+#MapTitle {
+  font-family: 'Poiret One', cursive;
+  margin-left: 50px;
+  color:#4ECDC4;
+  
+}
+
+.mapouter {
+    float:left;
+		min-height:230px;
+		width:250px;
+    margin-left:30px;
+  
+}
+
+#MapText {
+  font-family: 'Poiret One', cursive;
+  color:black;
+	min-height:400px;
+	margin-right:200px;
+  float:right;
+  font-size:30px;
+  
+}
+
+#MapTitle2{
+  font-family: 'Poiret One', cursive;
+  margin-left: 50px;
+  color:#4ECDC4;
+  
+}
+
+#MapText2{
+  font-family: 'Poiret One', cursive;
+  color:black;
+	min-height:400px;
+	margin-right:200px;
+  float:right;
+  font-size:30px;
+}
+
+
+footer.page-footer {
+  height: 400px;
+  padding-top: 60px;
+}
+
+
+/* Style the form element with a border around it */
+form {
+  border: 2px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+  padding: 20px;
+  background-color:;
+  font-family: 'Poiret One', cursive;
+  font-size:26px;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 14px;
+  
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color:#ffd1dc;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+#zeroheading {
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  margin-left: 55px;
+  margin-right: 55px;
+  } 
+
+#zerowaste {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  margin-left: 55px;
+  margin-right: 55px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+}
+
+#shelterheading {
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  margin-left: 55px;
+  margin-right: 55px;
+}  
+
+#shelter{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  margin-left: 55px;
+  margin-right: 55px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+}
+
+.fashion {
+  height: 376px !important;
+    
+}
+
+#qorlogo{
+    float:left;
+		min-height:230px;
+		width:250px;
+    margin-left:30px;
+}
+  
+
+#qor{
+  float:right;
+  margin-right: 600px;
+}
